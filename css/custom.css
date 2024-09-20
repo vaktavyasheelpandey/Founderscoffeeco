@@ -1,0 +1,2179 @@
+@import url("//fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap");
+/*
+Heading fonts: Fira Sans Condensed, sans-serif
+Body fonts: Fira Sans Condensed, sans-serif
+Subheading fonts: Pacifico, cursive
+Navigtion fonts: Fira Sans Condensed, sans-serif
+Button fonts: Fira Sans Condensed, sans-serif
+*/
+/* Custom style */
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+/* NAV_V8 navigation with centered logo */
+.navbar-regular.nav-v8 .navbar-nav > li > a,
+.nav-v8 li.drop-down-link div.drop-down {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar.nav-v8 .social-square .contact-icon:hover i {
+  color: #fff;
+}
+
+.nav-v8 .navbar-tabs {
+  margin-top: 40px;
+}
+
+.nav-v8 .nav-tab {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.navbar.nav-v8 .navbar-nav > li {
+  text-align: center;
+}
+
+li.drop-down-link .sub-menu {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.nav-v8 .logo-holder {
+  order: 2;
+}
+
+.navbar.nav-v8 li.nav-tab {
+  transition: all 0.2s ease;
+}
+
+.navbar.nav-v8.nav-top .desktop-navigation .navbar-nav {
+  opacity: 0;
+  transition: opacity 0.2s linear 0.3s;
+}
+
+.nav-v8 .desktop-navigation .logo-holder {
+  align-self: flex-start;
+  height: auto;
+  flex-basis: 150px;
+}
+
+.nav-v8.nav-scroll .desktop-navigation .logo-holder {
+  flex-basis: 120px;
+}
+
+/* END NAV_V8 navigation with centered logo */
+li.drop-down-link .sub-menu {
+  padding: 8px;
+}
+
+li.drop-down-link .sub-menu a {
+  text-transform: uppercase;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.section-header,
+.about-us-v8-content .text-wrapper h1,
+.about-us-v7-content .text-wrapper h1,
+.about-us-v6-content .text-wrapper h1,
+.specials-v3.home-specials h1,
+.specials h1,
+.events-container h1,
+.locations-page.about-us-background .location-holder h1,
+.locations-v2-page h1.section-header,
+.about-us-page .about-us-s1-content h1,
+.custom-modal .newsletter-popup .section-header {
+  text-transform: uppercase;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 4em;
+}
+
+.about-us-v8-content .text-wrapper h2,
+.reviews-v2-wrapper h2,
+.tmt-section h2,
+.custom_html_1-section h2,
+.map-newsletter h2 {
+  font-family: "Pacifico", cursive;
+  text-transform: capitalize;
+  font-size: 1.8em;
+}
+
+.custom-temp-btn,
+.uk-overlay-panel a.custom-temp-btn,
+.on-cover-content .section-wrapper a.custom-temp-btn,
+.about-us-v6-wrapper .text-wrapper .text-content .custom-temp-btn,
+.about-us-v7-content .text-wrapper .text-content .custom-temp-btn,
+.about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn,
+.custom-about-us-v8-wrapper.about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn,
+.newsletter-section .sph-email-subscription .sph-submit-button,
+.map-newsletter .sph-email-subscription .sph-submit-button,
+.custom-modal .newsletter-popup .sph-email-subscription .sph-submit-button,
+.addtocalendar.atc-style-blue .atcb-link,
+.specials-v3.home-specials div a.custom-temp-btn,
+.food-menu-nav .food-menu-nav-item,
+.food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item,
+.drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item,
+.locations-page .food-menu-nav .food-menu-nav-item,
+.locations-page .location-info-item .custom-temp-btn,
+.locations-v2-page .items-holder .custom-temp-btn,
+.about-us-page .custom-temp-btn,
+.about-us-page .about-us-v7-content .text-wrapper .text-content .custom-temp-btn,
+.about-us-page .about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn,
+.reservations-and-parties .custom-temp-btn,
+.party.reservations-page .custom-temp-btn,
+.party.party-images .custom-temp-btn,
+.party.catering .custom-temp-btn,
+.party.jobs-page .custom-temp-btn {
+  padding: 8px 40px;
+  text-transform: uppercase;
+  background-color: #000;
+  background: #000;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: 0;
+  transition: all 0.3s ease-in-out;
+  line-height: 1.4em;
+}
+
+.custom-temp-btn:hover,
+.custom-temp-btn:focus,
+.custom-temp-btn:active,
+.uk-overlay-panel a.custom-temp-btn:hover,
+.on-cover-content .section-wrapper a.custom-temp-btn:hover,
+.about-us-v6-wrapper .text-wrapper .text-content .custom-temp-btn:hover,
+.about-us-v7-content .text-wrapper .text-content .custom-temp-btn:hover,
+.about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn:hover,
+.custom-about-us-v8-wrapper.about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn:hover,
+.specials-v3.home-specials div a.custom-temp-btn:hover,
+.newsletter-section .sph-email-subscription .sph-submit-button:hover,
+.map-newsletter .sph-email-subscription .sph-submit-button:hover,
+.custom-modal .newsletter-popup .sph-email-subscription .sph-submit-button:hover,
+.addtocalendar.atc-style-blue .atcb-link:hover,
+.tmt-section a.custom-temp-btn:hover,
+.food-menu-nav .food-menu-nav-item:hover,
+.food-menu-nav .food-menu-nav-item:focus,
+.food-menu-nav .food-menu-nav-item.active,
+.food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:hover,
+.food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:focus,
+.food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item.active,
+.drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:hover,
+.drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:focus,
+.drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item.active,
+.locations-page .food-menu-nav .food-menu-nav-item:hover,
+.locations-page .food-menu-nav .food-menu-nav-item:focus,
+.locations-page .food-menu-nav .food-menu-nav-item.active,
+.locations-page .location-info-item .custom-temp-btn:hover,
+.locations-page .location-info-item .custom-temp-btn:focus,
+.locations-v2-page .items-holder .custom-temp-btn:hover,
+.locations-v2-page .items-holder .custom-temp-btn:focus,
+.about-us-page .custom-temp-btn:hover,
+.about-us-page .about-us-v7-content .text-wrapper .text-content .custom-temp-btn:hover,
+.about-us-page .about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn:hover,
+.reservations-and-parties .custom-temp-btn:hover,
+.party.reservations-page .custom-temp-btn:hover,
+.party.party-images .custom-temp-btn:hover,
+.party.catering .custom-temp-btn:hover,
+.party.jobs-page .custom-temp-btn:hover {
+  text-decoration: none;
+  background-color: #CF140A;
+  background: #CF140A;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #CF140A;
+  opacity: 1;
+}
+
+.uk-overlay-panel a.custom-temp-btn, .order-tmt-section a.custom-temp-btn {
+  background-color: #fff;
+  background: #fff;
+  color: #000;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.uk-overlay-panel a.custom-temp-btn:hover, .order-tmt-section a.custom-temp-btn:hover,
+.order-tmt-section a.custom-temp-btn:focus,
+.order-tmt-section a.custom-temp-btn:active {
+  background-color: #fff;
+  background: #fff;
+  color: #CF140A;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+/* Gallery hover initial */
+.gallery-hover {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s ease-in-out;
+}
+.gallery-hover a,
+.gallery-hover .image-holder {
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+}
+.gallery-hover a:hover,
+.gallery-hover .image-holder:hover {
+  text-decoration: none;
+}
+.gallery-hover img {
+  width: 100%;
+  height: 100%;
+}
+.gallery-hover .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  backface-visibility: hidden;
+  background: rgba(0, 0, 0, 0.8);
+}
+.gallery-hover .info h3,
+.gallery-hover .info p {
+  display: none;
+}
+.gallery-hover .info h3 {
+  margin: 0 auto;
+  padding: 5px;
+  color: #fff;
+  font-size: 1.8em;
+}
+.gallery-hover .info p {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 15px;
+  line-height: 1.1em;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+/* Gallery hover initial END */
+/*HOMEPAGE*/
+/* Line borders setup */
+.plain-line-border,
+.plain-line-border:before {
+  height: 10px;
+}
+
+.section-wrapper .top-line-border:before,
+.section-wrapper .bottom-line-border:before {
+  left: 0;
+  right: 0;
+}
+
+.section-wrapper.animation-element .top-line-border:before,
+.section-wrapper.animation-element .bottom-line-border:before,
+.animation-element .top-line-border:before,
+.animation-element .bottom-line-border:before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.section-wrapper.animation-element.animate .top-line-border:before,
+.section-wrapper.animation-element.animate .bottom-line-border:before,
+.animation-element.animate .top-line-border:before,
+.animation-element.animate .bottom-line-border:before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+/* END Line borders setup */
+/* Slideshow and cover content */
+.uk-overlay-background {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.on-cover-content .section-wrapper .section-header,
+.uk-overlay-panel h1 {
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 4.2em;
+}
+
+.home-page .uk-slidenav-contrast,
+.home-page .uk-slidenav-contrast:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.home-page .uk-slidenav-contrast:hover {
+  color: white;
+}
+
+.home-page .uk-slidenav-contrast.uk-slidenav:focus-visible {
+  outline-color: #fff;
+}
+
+.home-page .uk-dotnav-contrast > * > * {
+  background: #fff;
+  border: 1px solid #fff;
+  opacity: 0.8;
+}
+
+.home-page .uk-dotnav-contrast > .uk-active > *,
+.home-page .uk-dotnav-contrast > * > :focus,
+.home-page .uk-dotnav-contrast > * > :hover {
+  background: #fff;
+  border: 1px solid #fff;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.home-page .uk-dotnav-contrast.uk-dotnav a:focus-visible {
+  outline-color: #fff;
+}
+
+.on-cover-content .section-wrapper .buttons-group-holder,
+.uk-overlay-panel .buttons-group-holder {
+  padding-top: 10px;
+}
+
+/* Slideshow and cover content end*/
+/*Banner section*/
+.banner-section {
+  padding: 30px 0;
+  background: #000;
+  color: #fff;
+}
+
+.banner-section .container {
+  text-align: center;
+}
+
+.banner-section h1 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3em;
+  text-transform: none;
+  justify-content: center;
+}
+
+.banner-section .banner-pin {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.banner-section .banner-pin:hover,
+.banner-section .banner-pin:focus,
+.banner-section .banner-pin.active {
+  color: #29A604;
+}
+
+/*Banner section end*/
+/*About us section*/
+#aboutus_v8:before {
+  background-attachment: scroll;
+}
+
+.about-us-v8-wrapper:before {
+  background-position: left top;
+}
+
+.about-us-v8-content .text-wrapper h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/*About us section end*/
+/*Custom about us section*/
+#aboutus_v8_custom:before {
+  background-attachment: scroll;
+}
+
+.about-us-v8-wrapper.custom-about-us-v8-wrapper:before {
+  background-position: left top;
+}
+
+.custom-about-us-v8-wrapper .about-us-v8-content .text-wrapper h2 {
+  color: #000;
+}
+
+/*Custom about us section end*/
+/*Custom html 1 section*/
+.custom_html_1-section {
+  background-image: url("../images/reviews_bg.jpg");
+  background-position: center;
+  color: #000;
+  background-color: #fff;
+}
+
+.custom_html_1-section .container,
+.custom_html_1-section h1 {
+  text-align: center;
+}
+
+.custom_html_1-section img {
+  max-width: 700px;
+  width: 100%;
+}
+
+.custom_html_1-section h1 {
+  margin-top: 0;
+}
+
+.custom_html_1-section h2 {
+  margin: 25px auto;
+}
+
+.custom_html_1-section p {
+  text-align: center !important;
+}
+
+/*Custom html 1 section end*/
+/*TMT section*/
+.tmt-section h1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.tmt-section h2 {
+  margin-top: 10px;
+}
+
+.tmt-section p {
+  font-size: 1.3em;
+  margin: 20px auto;
+}
+
+.tmt-section a.custom-temp-btn {
+  margin: 0 5px 20px;
+}
+
+.reservations-tmt-section {
+  background-position: center;
+}
+
+.order-tmt-section {
+  background-position: center;
+}
+
+.private-parties-tmt-section {
+  background-position: center;
+}
+
+.catering-tmt-section {
+  background-position: center;
+}
+
+.jobs-tmt-section {
+  background-position: center;
+}
+
+/*TMT section end*/
+/*Gallery section V4*/
+.gallery-v4-wrapper {
+  background-color: #3a3a3a;
+}
+
+/*Gallery section V4 end*/
+/* Gallery Carousel */
+.gallery-carousel-standard-wrapper {
+  background-position: center;
+}
+
+.gallery-carousel-standard-wrapper .carousel-holder {
+  width: 100%;
+  padding: 10px;
+}
+
+.gallery-carousel-standard-wrapper .section-header {
+  padding: 10px;
+}
+
+.gallery-carousel-standard-wrapper .carousel-controls .carousel-control-btn,
+.gallery-carousel-standard-wrapper .owl-nav button {
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.gallery-carousel-standard-wrapper .item a {
+  border-radius: 0;
+}
+
+.gallery-carousel-standard-wrapper .item img {
+  border-radius: 0;
+}
+
+/* Gallery Carousel end */
+.fancybox-skin {
+  border-radius: 0;
+}
+
+/*Reviews section*/
+.reviews-v2-wrapper {
+  background-position: center !important;
+}
+
+.reviews-v2-wrapper {
+  background-attachment: scroll !important;
+}
+
+.reviews-v2-wrapper h1 {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #000;
+  z-index: 1;
+}
+
+.reviews-v2-wrapper h2 {
+  margin-top: 0;
+  color: #CF140A;
+}
+
+.reviews-v2-wrapper h3 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-transform: capitalize;
+  margin: 20px auto 15px;
+  color: #000;
+}
+
+.reviews-v2-wrapper h3 .fa.fa-star {
+  color: #000;
+  font-size: 0.8em;
+}
+
+.reviews-v2-wrapper .review-quote {
+  color: #CF140A;
+  opacity: 1;
+}
+
+.reviews-v2-wrapper .review-text {
+  padding-top: 0;
+}
+
+.reviews-v2-wrapper .review-text p {
+  line-height: 1.5em;
+}
+
+.owl-theme .owl-dots .owl-dot button {
+  background: transparent;
+  border: 1px solid #000;
+  opacity: 0.5;
+}
+
+.owl-theme .owl-dots .owl-dot.active button,
+.owl-theme .owl-dots .owl-dot:hover button {
+  background: #000;
+  border: 1px solid #000;
+  opacity: 1;
+}
+
+.reviews-v2-wrapper .owl-theme .owl-dots .owl-dot button:focus-visible {
+  outline: 1px solid #000;
+  outline-offset: 2px;
+}
+
+.reviews-v2-wrapper .owl-carousel .owl-nav button,
+.reviews-v2-wrapper .owl-carousel .owl-nav button:focus {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.reviews-v2-wrapper .owl-carousel .owl-nav button:hover {
+  color: black;
+}
+
+.reviews-v2-wrapper .owl-carousel .owl-nav button:focus-visible {
+  outline: 1px solid #000;
+  outline-offset: 2px;
+}
+
+/*Reviews section end*/
+/* Newsletter common option for newsletter sections and popup */
+.sph-email-subscription .sph-email-form input::-webkit-input-placeholder {
+  -webkit-transition: linear 0.3s;
+  transition: linear 0.3s;
+  transform-origin: 0 50%;
+}
+.sph-email-subscription .sph-email-form input:focus::-webkit-input-placeholder {
+  transform: scale(0);
+  opacity: 0;
+}
+
+/*Newsletter section*/
+.map-newsletter {
+  border-right: none;
+}
+
+.map-newsletter .text-wrapper:before {
+  background-color: #fff;
+}
+
+.map-newsletter .text-wrapper:before {
+  background-position: top left;
+  background-attachment: scroll;
+}
+
+.map-newsletter .section-header {
+  padding-bottom: 15px;
+  color: #000;
+}
+
+.map-newsletter h2 {
+  color: #000;
+}
+
+.map-newsletter .sph-email-subscription h2 {
+  margin-bottom: 20px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.map-newsletter .sph-email-subscription .sph-email-input {
+  padding: 8px 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: transparent;
+  color: #000;
+  border-bottom: 2px solid #000;
+  border-width: 2px;
+}
+
+.map-newsletter .sph-email-subscription input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.map-newsletter .sph-email-subscription input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+.map-newsletter .sph-email-subscription input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+
+.map-newsletter .sph-email-subscription input:-ms-input-placeholder {
+  color: #000;
+}
+
+.map-newsletter .bar {
+  top: -8px;
+}
+
+.map-newsletter .bar:before,
+.map-newsletter .bar:after {
+  background: #CF140A;
+}
+
+.googlemap-v3-wrapper .triangle {
+  display: none;
+}
+
+.sph-response-message {
+  color: #000;
+}
+
+.googlemap-v3-wrapper input:-webkit-autofill,
+.googlemap-v3-wrapper input:-webkit-autofill:hover,
+.googlemap-v3-wrapper input:-webkit-autofill:focus,
+.googlemap-v3-wrapper input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000;
+  color: #000 !important;
+}
+
+.map-newsletter .sph-email-subscription label {
+  color: #000;
+}
+
+/*Newsletter section end*/
+/*Newsletter popup section*/
+.custom-modal .modal-content {
+  background-image: url("../images/news_bg.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-color: #fff;
+}
+
+.custom-modal .newsletter-popup .section-header {
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription h2,
+.custom-modal .newsletter-popup .sph-email-subscription label h2 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3em;
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription h2 {
+  font-weight: 400;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input {
+  color: #000;
+  border: 1px solid #000;
+  background-color: transparent;
+  padding: 9px 5px;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input:-ms-input-placeholder {
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription input:-webkit-autofill,
+.custom-modal .newsletter-popup .sph-email-subscription input:-webkit-autofill:hover,
+.custom-modal .newsletter-popup .sph-email-subscription input:-webkit-autofill:focus,
+.custom-modal .newsletter-popup .sph-email-subscription input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000;
+  color: #000 !important;
+}
+
+.custom-modal .newsletter-popup .bar:before,
+.custom-modal .newsletter-popup .bar:after {
+  background: #CF140A;
+}
+
+.map-newsletter .sph-email-subscription label,
+.custom-modal .newsletter-popup .sph-email-subscription label {
+  font-family: "Fira Sans Condensed", sans-serif !important;
+  color: #000;
+  text-transform: none;
+  font-weight: 400 !important;
+}
+
+/*Newsletter section*/
+.newsletter-section {
+  border-right: none;
+}
+
+.newsletter-section .newsletter-content-holder:before {
+  background-position: center;
+}
+
+.newsletter-section .section-header {
+  color: #000;
+}
+
+.newsletter-section .sph-email-subscription h2 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3em;
+  color: #000;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.newsletter-section .sph-email-subscription .sph-email-input {
+  padding: 9px 5px;
+  color: #000;
+  background-color: transparent;
+  border-width: 2px;
+}
+
+.newsletter-section .sph-email-subscription input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.newsletter-section .sph-email-subscription input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+.newsletter-section .sph-email-subscription input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+
+.newsletter-section .sph-email-subscription input:-ms-input-placeholder {
+  color: #000;
+}
+
+.newsletter-section .sph-email-subscription input:-webkit-autofill,
+.newsletter-section .sph-email-subscription input:-webkit-autofill:hover,
+.newsletter-section .sph-email-subscription input:-webkit-autofill:focus,
+.newsletter-section .sph-email-subscription input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000;
+  color: #000 !important;
+}
+
+.newsletter-section .bar:before,
+.newsletter-section .bar:after {
+  background: #CF140A;
+}
+
+.googlemap-v2 .triangle,
+.googlemap-v3-wrapper .triangle {
+  display: none;
+}
+
+.sph-response-message {
+  color: #000;
+}
+
+.newsletter-section .sph-email-subscription label {
+  color: #000;
+}
+
+/*Newsletter section end*/
+/*Newsletter popup section*/
+.custom-modal .modal-content {
+  background-image: url("../images/news_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+}
+
+.custom-modal .newsletter-popup .section-header {
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription h2 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3em;
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input {
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 9px 5px;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .sph-email-subscription .sph-email-input:-ms-input-placeholder {
+  color: #000;
+}
+
+.custom-modal .newsletter-popup .bar:before,
+.custom-modal .newsletter-popup .bar:after {
+  background: #CF140A;
+}
+
+.newsletter-section .sph-email-subscription label,
+.custom-modal .newsletter-popup .sph-email-subscription label {
+  font-family: "Fira Sans Condensed", sans-serif !important;
+  color: #000;
+  text-transform: none;
+  font-weight: 400 !important;
+}
+
+.custom-modal .close {
+  color: #000;
+  opacity: 1;
+}
+
+.custom-modal .close:hover {
+  color: #000;
+  opacity: 0.8;
+}
+
+/*Newsletter popup section end*/
+/*Newsletter response message*/
+.sph-response-message {
+  font-size: 1.4em;
+}
+
+/*Openstreetmap section*/
+.maps-wrapper .custom-temp-btn.reset-zoom-btn,
+.maps-wrapper.about-us-s3-wrapper .reset-zoom-btn {
+  right: 7px;
+}
+
+/*Openstreetmap section end*/
+/*Contact section*/
+.contact-v3 {
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-v3::before {
+  background: #000;
+}
+
+.contact-v3 .contact-us p {
+  margin: 0;
+}
+
+.contact-v3 .days {
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.contact-v3 .from-to {
+  text-transform: uppercase;
+}
+
+.contact-v3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-v3 a:focus {
+  color: #fff;
+}
+
+/*Contact section end*/
+.footer-v2-wrapper p {
+  font-size: 1.3em;
+}
+
+/*HOMEPAGE END*/
+/*ABOUT US PAGE*/
+.about-page-content {
+  min-height: 100vh;
+}
+
+#about_s4_section {
+  display: none;
+}
+
+.about-page-content .about-us-v7-wrapper .about-us-v7-content:first-of-type {
+  background-position: center;
+}
+
+.about-page-content .about-us-v7-content .text-wrapper:before {
+  background-position: center;
+}
+
+.about-page-content .about-us-v7-content .text-wrapper .text-content {
+  padding: 40px 6%;
+}
+
+.about-page-content .about-us-v7-content .text-wrapper .text-content,
+.about-page-content .about-us-v7-content .text-wrapper .text-content * {
+  text-align: left !important;
+}
+
+/*ABOUT US PAGE END*/
+/*FOOD AND DRINKS PAGE*/
+.food-menu-page .food-menu-v2-wrapper,
+.drink-menu-page .drink-menu-v2-wrapper {
+  padding-top: 85px;
+}
+
+.food-menu-v2-wrapper .section-header,
+.drink-menu-v2-wrapper .section-header {
+  color: #000;
+}
+
+.food-menu-nav .food-menu-nav-item {
+  padding: 8px 40px;
+}
+
+.food-menu-grid-item-content {
+  border-radius: 0;
+}
+
+.drink-menu .food-menu-page h2,
+.drink-menu .drink-menu-page h2,
+.food-menu-grid h2 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #CF140A;
+}
+
+.food-menu-grid h3,
+.food-menu-grid .food-price {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3em;
+}
+
+.food-menu-grid p,
+.food-menu-grid .food-item-description {
+  font-size: 1.2em;
+}
+
+.food-menu-grid-item-content .food-menu-content {
+  border-left: 1px solid #000;
+}
+
+.food-menu-grid p,
+.food-menu-grid .menu-description p {
+  color: #000;
+}
+
+.food-menu-grid .food-menu-description p {
+  color: #000;
+}
+
+.food-menu-grid .food-item-description {
+  color: #000;
+}
+
+.food-menu-grid h3,
+.food-menu-grid .food-price {
+  color: #000;
+}
+
+.food-menu-grid .food-price {
+  color: #000;
+}
+
+.food-menu-page .food-menu-grid-item-content {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.food-menu-page .food-menu-grid .food-item-holder {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* Drinks only set*/
+.drink-menu-v2-wrapper .food-menu-grid-item-content .food-menu-content {
+  border-left: 1px solid #000;
+}
+
+.drink-menu-v2-wrapper .section-header {
+  color: #000;
+}
+
+.drink-menu-v2-wrapper h2,
+.drink-menu .drink-menu-page h2 {
+  color: #CF140A;
+  text-transform: uppercase;
+}
+
+.drink-menu-v2-wrapper .food-menu-grid p,
+.drink-menu-grid .menu-description p {
+  color: #000;
+}
+
+.drink-menu-v2-wrapper .food-menu-grid .food-menu-description p {
+  color: #000;
+}
+
+.drink-menu-v2-wrapper .food-menu-grid .food-item-description {
+  color: #000;
+}
+
+.drink-menu-v2-wrapper .food-menu-grid h3,
+.drink-menu-v2-wrapper .food-menu-grid .food-price {
+  color: #000;
+}
+
+.drink-menu-v2-wrapper .food-menu-grid .food-price {
+  color: #000;
+}
+
+.food-menu-page .drink-menu-v2-wrapper .food-menu-grid-item-content {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.food-menu-page .drink-menu-v2-wrapper .food-menu-grid .food-item-holder {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.food-menu-v2-wrapper .empty-content-message h2,
+.food-menu-v2-wrapper .empty-content-message h3 {
+  color: #000;
+}
+
+.drink-menu-v2-wrapper .empty-content-message h2,
+.drink-menu-v2-wrapper .empty-content-message h3 {
+  color: #000;
+}
+
+/*FOOD AND DRINKS PAGE END*/
+/*SPECIALS PAGE*/
+.onespecial {
+  font-size: 1.2em;
+}
+
+.specials h1 {
+  color: #fff;
+}
+
+.specials h2 {
+  color: #fff;
+}
+
+/*SPECIALS PAGE END*/
+/*EVENTS PAGE*/
+.event-content {
+  align-items: flex-start;
+}
+
+.events-container h1 {
+  color: #fff;
+}
+
+.events-container h2 {
+  font-weight: 400;
+  font-size: 2em;
+  color: #fff;
+}
+
+.events-container .event-main-text,
+.events-container .event-info-text p,
+.events-container .event-time {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.atc-style-blue .atcb-list {
+  width: 100%;
+}
+
+/*EVENTS PAGE END*/
+/*GIFT CARDS PAGE*/
+.gift-cards-page h1 {
+  margin-top: 35px;
+}
+
+/*GIFT CARDS PAGE END*/
+/* LOCATIONS PAGE */
+.about-us-background.locations-page,
+.locations-v2-page {
+  background-color: #fff;
+}
+
+.locations-page.about-us-background .location-holder h1,
+.locations-v2-page h1.section-header {
+  color: #000;
+}
+
+.locations-page.about-us-background .text-wrapper {
+  margin-top: 10px;
+}
+
+.locations-page.about-us-background .text-wrapper .section-header {
+  margin-bottom: 30px;
+}
+
+.locations-page.about-us-background .food-menu-grid-item-content {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.locations-page.about-us-background .location-holder .food-menu-grid-item-content h1,
+.locations-v2-page .items-holder .location-info-holder h1 {
+  font-size: 4em;
+  color: #000;
+}
+
+.locations-page.about-us-background .food-menu-grid h2,
+.locations-v2-page .items-holder .location-info-holder h2 {
+  font-size: 1.8em;
+  font-family: "Pacifico", cursive;
+  color: #000;
+}
+
+.locations-page.about-us-background .food-menu-grid h3,
+.locations-v2-page .items-holder .location-info-holder h3 {
+  margin-top: 5px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #000;
+}
+
+.location-info-holder p,
+.locations-v2-page .items-holder .location-info-holder p {
+  font-size: 1.3em;
+  color: #000;
+}
+
+.location-info-holder p a,
+.locations-v2-page .items-holder .location-info-holder p a,
+.locations-v2-page .items-holder a.off-screen {
+  color: #000;
+}
+
+.location-info-holder p a:hover,
+.location-info-holder p a:focus,
+.locations-v2-page .items-holder .location-info-holder p a:hover,
+.locations-v2-page .items-holder .location-info-holder p a:focus {
+  color: #000;
+}
+
+/* LOCATIONS PAGE END */
+/* LOCATIONS V2 PAGE */
+.locations-v2-page h1.section-header {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.locations-v2-page .main-holder {
+  border-top: 2px solid #000;
+}
+
+.locations-v2-page .items-holder {
+  width: 30%;
+  background-color: #fff;
+}
+
+.locations-v2-page .items-holder .location-info-holder:not(:last-of-type) {
+  border-bottom: 2px solid #000;
+}
+
+.locations-v2-page .map-holder {
+  width: 70%;
+}
+
+.locations-v2-page .map-holder .reset-zoom-btn {
+  right: 7px;
+}
+
+.locations-v2-page .main-holder .scroll-indicator {
+  background-color: #fff;
+}
+
+.locations-v2-page .main-holder .scroll-indicator span {
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+/* LOCATIONS V2 PAGE END */
+/* TMT PAGES */
+/* TMT PAGES END */
+.drink-menu .pagecontent {
+  padding-top: 150px;
+}
+
+.empty-content-message h2,
+.empty-content-message h3,
+.food-menu-page .empty-content-message h2,
+.food-menu-page .empty-content-message h3 {
+  text-transform: none;
+  text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.3em;
+}
+
+/* Gallery hover effect 1 */
+/* Gallery hover animation_1: image zoom no info panel */
+.gallery-hover.animation_1 .img {
+  transform: scale(1);
+  transition: all 0.35s ease-in-out;
+}
+.gallery-hover.animation_1 a:hover .img,
+.gallery-hover.animation_1 .image-holder:hover .img {
+  transform: scale(1.2);
+}
+
+/* Gallery hover effects 4, 5, 6 */
+.gallery-hover.animation_4 .img,
+.gallery-hover.animation_5 .img,
+.gallery-hover.animation_6 .img {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+.gallery-hover.animation_4 .info,
+.gallery-hover.animation_5 .info,
+.gallery-hover.animation_6 .info {
+  transition: all 0.3s ease-in-out;
+}
+.gallery-hover.animation_4 .info h3, .gallery-hover.animation_4 .info p,
+.gallery-hover.animation_5 .info h3,
+.gallery-hover.animation_5 .info p,
+.gallery-hover.animation_6 .info h3,
+.gallery-hover.animation_6 .info p {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.gallery-hover.animation_4 a:hover .img,
+.gallery-hover.animation_4 .image-holder:hover .img,
+.gallery-hover.animation_5 a:hover .img,
+.gallery-hover.animation_5 .image-holder:hover .img,
+.gallery-hover.animation_6 a:hover .img,
+.gallery-hover.animation_6 .image-holder:hover .img {
+  transform: scale(1.2);
+}
+.gallery-hover.animation_4 a:hover .info,
+.gallery-hover.animation_4 .image-holder:hover .info,
+.gallery-hover.animation_5 a:hover .info,
+.gallery-hover.animation_5 .image-holder:hover .info,
+.gallery-hover.animation_6 a:hover .info,
+.gallery-hover.animation_6 .image-holder:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Gallery hover animation_4: image zoom and info panel overlay fade in, text slide bottom to top */
+.gallery-hover.animation_4 .info h3 {
+  transform: translateY(100%);
+}
+.gallery-hover.animation_4 .info p {
+  transform: translateY(100%);
+}
+.gallery-hover.animation_4 a:hover .info h3,
+.gallery-hover.animation_4 a:hover .info p,
+.gallery-hover.animation_4 .image-holder:hover .info h3,
+.gallery-hover.animation_4 .image-holder:hover .info p {
+  transform: translateY(0);
+}
+
+/* Gallery hover animation_5: image zoom and info panel overlay fade in, text slide top to bottom */
+.gallery-hover.animation_5 .info h3 {
+  transform: translateY(-100%);
+}
+.gallery-hover.animation_5 .info p {
+  transform: translateY(-100%);
+}
+.gallery-hover.animation_5 a:hover .info h3,
+.gallery-hover.animation_5 a:hover .info p,
+.gallery-hover.animation_5 .image-holder:hover .info h3,
+.gallery-hover.animation_5 .image-holder:hover .info p {
+  transform: translateY(0);
+}
+
+/* Gallery hover animation_6: image zoom and info panel overlay fade in, text slide from left */
+.gallery-hover.animation_6 .info h3 {
+  transform: translateX(-100%);
+}
+.gallery-hover.animation_6 .info p {
+  transform: translateX(-100%);
+}
+.gallery-hover.animation_6 a:hover .info h3,
+.gallery-hover.animation_6 a:hover .info p,
+.gallery-hover.animation_6 .image-holder:hover .info h3,
+.gallery-hover.animation_6 .image-holder:hover .info p {
+  transform: translateX(0);
+}
+
+@media (max-width: 1400px) {
+  .navbar-regular.nav-v8 .navbar-nav > li > a {
+    padding: 0 8px;
+  }
+  .nav-v8 .desktop-navigation .logo-holder {
+    flex-basis: 140px;
+  }
+  .nav-v8.nav-scroll .desktop-navigation .logo-holder {
+    flex-basis: 110px;
+  }
+  .section-header,
+  .about-us-v8-content .text-wrapper h1,
+  .about-us-v7-content .text-wrapper h1,
+  .about-us-v6-content .text-wrapper h1,
+  .specials-v3.home-specials h1,
+  .specials h1,
+  .events-container h1,
+  .locations-page.about-us-background .location-holder h1,
+  .locations-v2-page h1.section-header,
+  .about-us-page .about-us-s1-content h1,
+  .custom-modal .newsletter-popup .section-header {
+    font-size: 3.6em;
+  }
+  .about-us-v8-content .text-wrapper h2,
+  .custom_html_1-section h2,
+  .tmt-section h2,
+  .reviews-v2-wrapper h2,
+  .map-newsletter h2 {
+    font-size: 1.7em;
+  }
+  .on-cover-content .section-wrapper .section-header,
+  .uk-overlay-panel h1 {
+    font-size: 3.8em;
+  }
+  .about-us-page .about-us-s1-content img {
+    max-width: 200px;
+  }
+  .specials h2 {
+    font-size: 1.3em;
+  }
+  .locations-page.about-us-background .location-holder .food-menu-grid-item-content h1,
+  .locations-v2-page .items-holder .location-info-holder h1 {
+    font-size: 3.6em;
+  }
+  .locations-page.about-us-background .food-menu-grid h2,
+  .locations-v2-page .items-holder .location-info-holder h2 {
+    font-size: 1.7em;
+  }
+  .empty-content-message h2,
+  .empty-content-message h3,
+  .food-menu-page .empty-content-message h2,
+  .food-menu-page .empty-content-message h3 {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-regular.nav-v8 .navbar-nav > li > a {
+    font-size: 1.1em;
+    padding: 0 5px;
+  }
+  .nav-v8 .desktop-navigation .logo-holder {
+    flex-basis: 130px;
+  }
+  .nav-v8.nav-scroll .desktop-navigation .logo-holder {
+    flex-basis: 100px;
+  }
+  .section-header,
+  .about-us-v8-content .text-wrapper h1,
+  .about-us-v7-content .text-wrapper h1,
+  .about-us-v6-content .text-wrapper h1,
+  .specials-v3.home-specials h1,
+  .specials h1,
+  .events-container h1,
+  .locations-page.about-us-background .location-holder h1,
+  .locations-v2-page h1.section-header,
+  .about-us-page .about-us-s1-content h1,
+  .custom-modal .newsletter-popup .section-header {
+    font-size: 3.2em;
+  }
+  .about-us-v8-content .text-wrapper h2,
+  .custom_html_1-section h2,
+  .tmt-section h2,
+  .reviews-v2-wrapper h2,
+  .map-newsletter h2 {
+    font-size: 1.6em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .on-cover-content .section-wrapper .section-header,
+  .uk-overlay-panel h1 {
+    font-size: 3.4em;
+  }
+  .banner-section h1 {
+    font-size: 1.2em;
+  }
+  .tmt-section p {
+    font-size: 1.2em;
+  }
+  .googlemap-v3-wrapper .map-item,
+  #map-v3-container {
+    min-height: 460px;
+  }
+  .map-newsletter .sph-email-subscription h2 {
+    font-size: 1.2em;
+  }
+  .custom-modal .newsletter-popup .sph-email-subscription h2,
+  .custom-modal .newsletter-popup .sph-email-subscription label h2 {
+    font-size: 1.2em;
+  }
+  .gallery-carousel-menu-wrapper .info p {
+    font-size: 1.2em;
+  }
+  .gallery-carousel-menu-wrapper .info p.menu-item-title {
+    font-size: 1.2em;
+  }
+  .contact-v3 .contact-location,
+  .contact-v3 .hours,
+  .contact-v3 .find-us {
+    font-size: 1.1em;
+  }
+  .footer-v2-wrapper a {
+    font-size: 1.1em;
+  }
+  .about-us-page .about-us-s1-content img {
+    max-width: 150px;
+  }
+  .drink-menu .food-menu-page h2,
+  .drink-menu .drink-menu-page h2 {
+    font-size: 1.8em;
+  }
+  .food-menu-grid h3,
+  .food-menu-grid .food-price {
+    font-size: 1.2em;
+  }
+  .food-menu-grid p,
+  .food-menu-grid .food-item-description {
+    font-size: 1.1em;
+  }
+  .onespecial {
+    font-size: 1.1em;
+  }
+  .events-container h2 {
+    font-size: 1.8em;
+  }
+  .events-container .event-main-text,
+  .events-container .event-info-text p,
+  .events-container .event-time {
+    font-size: 1.2em;
+  }
+  .locations-page.about-us-background .location-holder .food-menu-grid-item-content h1,
+  .locations-v2-page .items-holder .location-info-holder h1 {
+    font-size: 3.2em;
+  }
+  .locations-page.about-us-background .food-menu-grid h2,
+  .locations-v2-page .items-holder .location-info-holder h2 {
+    font-size: 1.6em;
+  }
+  .location-info-holder p,
+  .locations-v2-page .items-holder .location-info-holder p {
+    font-size: 1.2em;
+  }
+  .locations-v2-page .items-holder {
+    width: 40%;
+  }
+  .locations-v2-page .map-holder {
+    width: 60%;
+  }
+  .empty-content-message h2,
+  .empty-content-message h3,
+  .food-menu-page .empty-content-message h2,
+  .food-menu-page .empty-content-message h3 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 1024px) {
+  #aboutus_v8:before,
+  #aboutus_v8_custom:before {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 1023px) {
+  .navbar-regular.nav-v8 .navbar-nav > li > a {
+    font-size: 1em;
+  }
+  li.drop-down-link .sub-menu {
+    padding: 5px;
+  }
+  li.drop-down-link .sub-menu a {
+    font-size: 0.9em;
+  }
+  .section-header,
+  .about-us-v8-content .text-wrapper h1,
+  .about-us-v7-content .text-wrapper h1,
+  .about-us-v6-content .text-wrapper h1,
+  .specials-v3.home-specials h1,
+  .specials h1,
+  .events-container h1,
+  .locations-page.about-us-background .location-holder h1,
+  .locations-v2-page h1.section-header,
+  .about-us-page .about-us-s1-content h1,
+  .custom-modal .newsletter-popup .section-header {
+    font-size: 2.8em;
+  }
+  .custom-temp-btn,
+  .uk-overlay-panel a.custom-temp-btn,
+  .on-cover-content .section-wrapper a.custom-temp-btn,
+  .about-us-v6-wrapper .text-wrapper .text-content .custom-temp-btn,
+  .about-us-v7-content .text-wrapper .text-content .custom-temp-btn,
+  .about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn,
+  .custom-about-us-v8-wrapper.about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn,
+  .map-newsletter .sph-email-subscription .sph-submit-button,
+  .custom-modal .newsletter-popup .sph-email-subscription .sph-submit-button,
+  .addtocalendar.atc-style-blue .atcb-link,
+  .specials-v3.home-specials div a.custom-temp-btn,
+  .food-menu-nav .food-menu-nav-item,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item {
+    font-size: 16px;
+  }
+  .on-cover-content .section-wrapper .section-header,
+  .uk-overlay-panel h1 {
+    font-size: 3em;
+  }
+  .about-us-v8-wrapper:before {
+    background-position: center center;
+  }
+  .about-us-v8-wrapper.custom-about-us-v8-wrapper:before {
+    background-position: center center;
+  }
+  .reservations-tmt-section {
+    background-position: center;
+  }
+  .order-tmt-section {
+    background-position: center;
+  }
+  .private-parties-tmt-section {
+    background-position: center;
+  }
+  .catering-tmt-section {
+    background-position: center;
+  }
+  .jobs-tmt-section {
+    background-position: center;
+  }
+  .gallery-carousel-standard-wrapper {
+    background-position: center;
+  }
+  .custom_html_1-section {
+    background-position: center;
+  }
+  .reviews-v2-wrapper {
+    background-position: center !important;
+  }
+  .reviews-v2-wrapper h3 {
+    font-size: 1.1em;
+  }
+  .reviews-v2-wrapper .review-text p {
+    font-size: 1.1em;
+  }
+  .map-newsletter .text-wrapper:before {
+    background-position: center center;
+  }
+  .newsletter-section .newsletter-content-holder:before {
+    background-position: center center;
+  }
+  .about-us-page .about-us-s1-content img {
+    max-width: 100px;
+  }
+  .about-page-content .about-us-v7-wrapper .about-us-v7-content:first-of-type {
+    background-position: center;
+  }
+  .about-page-content .about-us-v7-content .text-wrapper:before {
+    background-position: center;
+  }
+  .about-page-content .about-us-v7-content .text-wrapper .text-content,
+  .about-page-content .about-us-v7-content .text-wrapper .text-content * {
+    text-align: center !important;
+  }
+  .about-us-page .custom-temp-btn,
+  .about-us-page .about-us-v7-content .text-wrapper .text-content .custom-temp-btn,
+  .about-us-page .about-us-v8-wrapper .about-us-v8-item a.custom-temp-btn {
+    font-size: 16px;
+  }
+  .onespecial {
+    font-size: 1em;
+  }
+  .specials h2 {
+    font-size: 1.2em;
+  }
+  .locations-page.about-us-background .location-holder .food-menu-grid-item-content h1,
+  .locations-v2-page .items-holder .location-info-holder h1 {
+    font-size: 2.8em;
+  }
+  .locations-page .food-menu-nav .food-menu-nav-item,
+  .locations-page .location-info-item .custom-temp-btn {
+    font-size: 16px;
+  }
+  .empty-content-message h2,
+  .empty-content-message h3,
+  .food-menu-page .empty-content-message h2,
+  .food-menu-page .empty-content-message h3 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 991px) {
+  .navbar.nav-v8 .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-regular.nav-v8 .navbar-nav > li > a {
+    padding: 0 3px;
+  }
+  .social-icons-holder .contact-icon {
+    width: 28px;
+  }
+  .navbar.nav-v8 .navbar-tabs .socialnav {
+    display: none;
+  }
+  .navbar.nav-v8 .navbar-tabs .navbar-content {
+    width: 97% !important;
+  }
+  .map-newsletter .bar {
+    top: 0;
+  }
+  .about-us-page .about-us-s1-content {
+    text-align: center !important;
+  }
+}
+@media (max-width: 767px) {
+  .navbar.nav-v8 .header-logo {
+    max-width: 90px;
+    left: 5px;
+  }
+  .navbar.nav-v8 .header-logo img {
+    max-height: -webkit-fill-available;
+  }
+  .navbar.nav-v8 .navbar-nav > li {
+    text-align: left;
+  }
+  li.drop-down-link .sub-menu {
+    text-align: left;
+    margin-top: 0;
+  }
+  .navbar-regular.nav-v8 .navbar-nav > li > a,
+  .nav-v8 li.drop-down-link div.drop-down {
+    font-size: 1.1em;
+    padding: 6px 15px;
+  }
+  .drink-menu .navbar-regular.nav-v8.nav-v4 .navbar-nav > li > a,
+  .navbar-regular.nav-v8.nav-v4.nav-scroll .navbar-nav > li > a {
+    background-color: #fff;
+  }
+  .navbar-regular.nav-v8 .navbar-nav > li > a:hover,
+  .navbar-regular.nav-v8 .navbar-nav > .active > a,
+  .navbar-regular.nav-v8 .navbar-nav > .active > a:focus,
+  .navbar-regular.nav-v8 .navbar-nav > .active > a:hover {
+    background-color: #CF140A !important;
+    color: #fff !important;
+  }
+  .navbar.nav-v8 .navbar-tabs .socialnav {
+    display: inline-block;
+  }
+  li.drop-down-link .sub-menu {
+    padding: 0 30px 5px 30px;
+  }
+  video#coverVideo {
+    margin-top: 70px;
+  }
+  .section-header,
+  .about-us-v8-content .text-wrapper h1,
+  .about-us-v7-content .text-wrapper h1,
+  .about-us-v6-content .text-wrapper h1,
+  .specials-v3.home-specials h1,
+  .specials h1,
+  .events-container h1,
+  .locations-page.about-us-background .location-holder h1,
+  .locations-v2-page h1.section-header,
+  .about-us-page .about-us-s1-content h1,
+  .custom-modal .newsletter-popup .section-header {
+    font-size: 2.3em;
+  }
+  .about-us-v8-content .text-wrapper h2,
+  .custom_html_1-section h2,
+  .tmt-section h2,
+  .reviews-v2-wrapper h2,
+  .map-newsletter h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  .navbar-fixed-bottom.nav-v1 .bottom-list-item a {
+    text-transform: uppercase;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 14px;
+    padding: 15px 5px;
+  }
+  .on-cover-content .section-wrapper .section-header,
+  .uk-overlay-panel h1 {
+    margin-top: 0;
+    font-size: 2em;
+  }
+  .on-cover-content .buttons-group-holder a.custom-temp-btn,
+  .uk-overlay-panel .buttons-group-holder a.custom-temp-btn {
+    min-width: auto;
+  }
+  .banner-section {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .banner-section h1 {
+    font-size: 1.1em;
+  }
+  .about-us-v8-content .text-wrapper {
+    text-align: center;
+  }
+  .about-us-v8-content .text-wrapper p {
+    text-align: center !important;
+  }
+  .about-us-v8-content .title-image h1::after,
+  .about-us-v8-content .title-image h1::before {
+    background-position: center !important;
+  }
+  .tmt-section {
+    padding: 2em 0;
+  }
+  .tmt-section p {
+    font-size: 1.1em;
+  }
+  .gallery-carousel-menu-wrapper .info p {
+    font-size: 1.1em;
+  }
+  .gallery-carousel-menu-wrapper .info p.menu-item-title {
+    font-size: 1.1em;
+  }
+  .custom_html_1-section {
+    padding: 2em 0;
+  }
+  .custom_html_1-section .container,
+  .custom_html_1-section h1 {
+    text-align: center;
+  }
+  .custom_html_1-section p {
+    text-align: center !important;
+  }
+  .reviews-v2-wrapper h3 {
+    font-size: 1em;
+  }
+  .reviews-v2-wrapper .review-text p {
+    font-size: 1em;
+  }
+  .googlemap-v3-wrapper .map-item.map-newsletter {
+    min-height: 440px;
+  }
+  .map-newsletter .text-wrapper .text-content {
+    top: -10px;
+  }
+  .map-newsletter .sph-email-subscription h2 {
+    font-size: 1.1em;
+  }
+  .custom-modal .newsletter-popup .sph-email-subscription h2,
+  .custom-modal .newsletter-popup .sph-email-subscription label h2 {
+    font-size: 1.1em;
+  }
+  .newsletter-section .newsletter-content-holder {
+    padding: 2em 0;
+  }
+  .newsletter-section {
+    min-height: 450px;
+  }
+  .sph-response-message {
+    font-size: 1.3em;
+  }
+  .contact-v3 {
+    text-align: center;
+  }
+  .footer-v2-wrapper p {
+    font-size: 1.1em;
+  }
+  .footer-v2-wrapper a {
+    font-size: 1em;
+  }
+  .about-page-content {
+    padding-top: 0;
+  }
+  .about-us-s1-wrapper {
+    margin-top: 0;
+  }
+  .about-us-page .about-us-s1-content img {
+    max-width: 70px;
+  }
+  .food-menu-page .food-menu-v2-wrapper,
+  .drink-menu-page .drink-menu-v2-wrapper {
+    padding-top: 45px;
+  }
+  .food-menu-nav .food-menu-nav-item,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item {
+    padding: 7px 20px;
+    border: none;
+  }
+  .food-menu-nav .food-menu-nav-item:hover,
+  .food-menu-nav .food-menu-nav-item:focus,
+  .food-menu-nav .food-menu-nav-item.active,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:hover,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:focus,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item.active,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:hover,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:focus,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item.active {
+    border: none;
+    transform: scale(1);
+  }
+  .food-menu-nav .food-menu-nav-item {
+    border-bottom: 2px solid #CF140A;
+  }
+  .food-menu-nav .food-menu-nav-item:hover,
+  .food-menu-nav .food-menu-nav-item:focus,
+  .food-menu-nav .food-menu-nav-item.active {
+    border-bottom: 2px solid #CF140A;
+  }
+  .food-menu-nav li.food-menu-nav-li:first-of-type .food-menu-nav-item {
+    border-top: 2px solid #CF140A;
+  }
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item {
+    border-bottom: 2px solid #CF140A;
+  }
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:hover,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:focus,
+  .food-menu-v2-wrapper .food-menu-nav .food-menu-nav-item.active {
+    border-bottom: 2px solid #CF140A;
+  }
+  .food-menu-v2-wrapper .food-menu-nav li.food-menu-nav-li:first-of-type .food-menu-nav-item {
+    border-top: 2px solid #CF140A;
+  }
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item {
+    border-bottom: 2px solid #CF140A;
+  }
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:hover,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item:focus,
+  .drink-menu-v2-wrapper .food-menu-nav .food-menu-nav-item.active {
+    border-bottom: 2px solid #CF140A;
+  }
+  .drink-menu-v2-wrapper .food-menu-nav li.food-menu-nav-li:first-of-type .food-menu-nav-item {
+    border-top: 2px solid #CF140A;
+  }
+  .drink-menu .food-menu-page h2,
+  .drink-menu .drink-menu-page h2 {
+    font-size: 1.6em;
+  }
+  .food-menu-grid h3,
+  .food-menu-grid .food-price {
+    font-size: 1.1em;
+  }
+  .food-menu-grid p,
+  .food-menu-grid .food-item-description {
+    font-size: 1.05em;
+  }
+  .food-menu-page .drink-menu-v2-wrapper .food-menu-grid-item-content {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  .events-container .container {
+    margin-bottom: 150px;
+  }
+  .events-container h2 {
+    font-size: 1.6em;
+  }
+  .events-container .event-main-text,
+  .events-container .event-info-text p,
+  .events-container .event-time {
+    font-size: 1.1em;
+  }
+  .locations-page.about-us-background .text-wrapper {
+    margin-top: 0px;
+  }
+  .locations-page .food-menu-nav .food-menu-nav-item {
+    border: none;
+    border-bottom: 2px solid #CF140A;
+  }
+  .locations-page .food-menu-nav .food-menu-nav-item:hover,
+  .locations-page .food-menu-nav .food-menu-nav-item:focus,
+  .locations-page .food-menu-nav .food-menu-nav-item.active {
+    border: none;
+    border-bottom: 2px solid #CF140A;
+  }
+  .locations-page .food-menu-nav li.food-menu-nav-li:first-of-type .food-menu-nav-item {
+    border-top: 2px solid #CF140A;
+  }
+  .locations-page.about-us-background .location-holder .food-menu-grid-item-content h1,
+  .locations-v2-page .items-holder .location-info-holder h1 {
+    font-size: 2.3em;
+  }
+  .locations-page.about-us-background .food-menu-grid h2,
+  .locations-v2-page .items-holder .location-info-holder h2 {
+    font-size: 1.5em;
+  }
+  .location-info-holder p,
+  .locations-v2-page .items-holder .location-info-holder p {
+    font-size: 1.1em;
+  }
+  .locations-v2-page .items-holder,
+  .locations-v2-page .map-holder {
+    width: 100%;
+  }
+  .locations-v2-page .map-holder {
+    border-top: 2px solid #000;
+  }
+  .locations-v2-page .mobile-scroll {
+    right: 7px;
+  }
+  .location-info-holder .location-info-item.item-1,
+  .locations-v2-page .items-holder .location-info-holder .location-info-item.item-1 {
+    padding: 0;
+  }
+  .location-info-holder .location-info-item img,
+  .locations-v2-page .items-holder .location-info-holder .location-info-item.item-1 img {
+    height: auto;
+  }
+  /* Catering custom page with menu */
+  .party.catering .food-menu-nav .food-menu-nav-item {
+    border: none;
+    border-bottom: 2px solid #CF140A;
+  }
+  .party.catering .food-menu-nav .food-menu-nav-item:hover,
+  .party.catering .food-menu-nav .food-menu-nav-item:focus,
+  .party.catering .food-menu-nav .food-menu-nav-item.active {
+    border: none;
+    border-bottom: 2px solid #CF140A;
+  }
+  .party.catering .food-menu-nav li.food-menu-nav-li:first-of-type .food-menu-nav-item {
+    border-top: 2px solid #CF140A;
+  }
+  /* Catering custom page with menu end */
+  .tmt-page.party-background.drink-menu .pagecontent {
+    padding-top: 0;
+  }
+  .drink-menu .pagecontent {
+    padding-top: 70px;
+  }
+  .empty-content-message h2,
+  .empty-content-message h3,
+  .food-menu-page .empty-content-message h2,
+  .food-menu-page .empty-content-message h3 {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 320px) {
+  .section-header,
+  .about-us-v8-content .text-wrapper h1,
+  .about-us-v7-content .text-wrapper h1,
+  .about-us-v6-content .text-wrapper h1,
+  .specials-v3.home-specials h1,
+  .specials h1,
+  .events-container h1,
+  .locations-page.about-us-background .location-holder h1,
+  .locations-v2-page h1.section-header,
+  .about-us-page .about-us-s1-content h1,
+  .custom-modal .newsletter-popup .section-header {
+    font-size: 1.8em;
+  }
+  .about-us-v8-content .text-wrapper h2,
+  .custom_html_1-section h2,
+  .tmt-section h2,
+  .reviews-v2-wrapper h2,
+  .map-newsletter h2 {
+    font-size: 1.4em;
+  }
+  .navbar-fixed-bottom.nav-v1 .bottom-list-item a {
+    font-size: 12px;
+  }
+  .on-cover-content .section-wrapper .section-header,
+  .uk-overlay-panel h1 {
+    font-size: 1.8em;
+  }
+  .footer-v2-wrapper a {
+    font-size: 0.9em;
+  }
+  .locations-page.about-us-background .location-holder .food-menu-grid-item-content h1,
+  .locations-v2-page .items-holder .location-info-holder h1 {
+    font-size: 1.8em;
+  }
+  .locations-page.about-us-background .food-menu-grid h2,
+  .locations-v2-page .items-holder .location-info-holder h2 {
+    font-size: 1.4em;
+  }
+  .empty-content-message h2,
+  .empty-content-message h3,
+  .food-menu-page .empty-content-message h2,
+  .food-menu-page .empty-content-message h3 {
+    font-size: 1.1em;
+  }
+}
+/* START website specific style */
+.uk-dotnav-contrast > * > * {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.uk-dotnav-contrast > .uk-active > * {
+  background: #fff;
+}
+
+.uk-slidenav-contrast {
+  color: rgba(255, 255, 255, 0.8);
+}
+.uk-slidenav-contrast:focus, .uk-slidenav-contrast:hover {
+  color: #fff;
+}
+
+.custom_html_1-section .container {
+  width: 90%;
+}
+
+.custom_html_1-section .container img {
+  margin: 0 auto;
+}
+
+.banner-section h1 a {
+  color: #fff;
+}
+
+/* Contact Us page */
+.contact-us-custom-page::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url("../images/contact_us_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -moz-filter: grayscale(0.6) opacity(0.2);
+  -o-filter: grayscale(0.6) opacity(0.2);
+  -ms-filter: grayscale(0.6) opacity(0.2);
+  filter: grayscale(0.6) opacity(0.2);
+}
+
+.contact-us-custom-page * {
+  text-shadow: none;
+}
+
+.contact-us-custom-page .pagecontent {
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+/* Contact Us page end */
+/* Jobs page */
+.jobs-custom-page::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url("../images/contact_us_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -moz-filter: grayscale(0.6) opacity(0.2);
+  -o-filter: grayscale(0.6) opacity(0.2);
+  -ms-filter: grayscale(0.6) opacity(0.2);
+  filter: grayscale(0.6) opacity(0.2);
+}
+
+.jobs-custom-page * {
+  text-shadow: none;
+}
+
+.jobs-custom-page .pagecontent {
+  text-align: center;
+  padding-bottom: 1px;
+  width: 60%;
+}
+
+/* Jobs page end */
+/* Locations page START */
+/* Locations page END */
+@media (max-width: 767px) {
+  .about-us-v8-item-1 .about-us-v8-content {
+    display: none;
+  }
+  .jobs-custom-page .pagecontent {
+    width: 100%;
+  }
+}
